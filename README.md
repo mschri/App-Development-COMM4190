@@ -20,4 +20,3 @@ Our aim is to develop an application that utilizes LLM output trained specifical
 * [Sample Training Data](04_App_Design/Sample_input_training_data.ipynb)
 * [App Design](04_App_Design/Untrained_vs_Trained_Responses.ipynb)
 * [User Pathways](05_User_pathways.ipynb)
-# App-Development-COMM4190
