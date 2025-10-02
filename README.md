@@ -14,9 +14,9 @@ Our aim is to develop an application that utilizes LLM output trained specifical
 ### Project details
 
 
-* [01_App Description](01_Preliminary_App_Description.ipynb)
-* [User Scenarios](02_User_Scenarios.ipynb)
-* [Prompt Development](03_Prompting_Experiments.ipynb)
-* [Sample Training Data](04_App_Design/Sample_input_training_data.ipynb)
-* [App Design](04_App_Design/Untrained_vs_Trained_Responses.ipynb)
-* [User Pathways](05_User_pathways.ipynb)
+* [01_App Description](01_App_Description.ipynb) - Notebook containing an outline & description of the app idea.
+* [02_User Scenarios](02_User_Scenarios.ipynb) - Link to a notebook containing the description of user scenarios for our app.
+* [03_Prompt Development](03_Prompting_Experiments.ipynb) - Notebook containing calls to the LLM and prompt interaction. This notebook contains preliminary interactions with the model with user scenario prompts, before training the model.
+* [04_Sample Training Data](04_App_training_data) - This directs you to the file containing some sample sets of training data that would be used on the model. Each of the files contained within the folder would be inputted into the model, to train outputs to respond a certain way, or provide context with which the model could tailor responses to the individual user. Note: because this project was primarily a simulation (and not a fully fledged app development), the training data is limited, and only provies a sample of what all of the training data might include.
+* [05_User Pathways](05_User_pathways.ipynb) - This links to the notebook the maps user scenarios. The scenarios were mapped using Mermaid diagramming.
+* [06_Trained Responses](06_Trained_responses.ipynb) - This notebook contains model interactions and prompts after the model was "trained," using the sample training in file 04. Note: there are cells containing "pre-trained" responses, to demonstrate within the same location the comparisons in responses between trained and pre-trained outputs. There are also cells containing some observations of these differences.
